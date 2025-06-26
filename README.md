@@ -1,1 +1,1 @@
-Here is the live link to the project: https://splendid-lollipop-e641f7.netlify.app/
+Here is the live link to the project: https://chic-piroshki-1eb510.netlify.app/
