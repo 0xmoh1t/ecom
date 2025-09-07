@@ -4,7 +4,7 @@ import { Settings, LayoutDashboard, Package } from "lucide-react";
 
 const Sidebar = () => {
   const [showUsername, setShowUsername] = useState(false);
-  const username = "Pravesh Dhakal"; // Replace this with actual username from context or props
+  const username = "Sumit Gupta"; // Replace this with actual username from context or props
 
   return (
     <aside className="w-64 bg-[#111827] text-white flex flex-col items-center py-6 space-y-6">

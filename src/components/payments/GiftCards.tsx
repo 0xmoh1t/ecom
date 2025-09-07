@@ -33,7 +33,7 @@ const GiftCards: React.FC<GiftCardsProps> = ({ giftCards, onAddGiftCard }) => {
     <div className="flex justify-between items-center bg-white p-4 rounded-lg shadow-md mb-4">
       <div>
         <h3 className="font-semibold text-lg text-gray-800">Gift Cards</h3>
-        <p className="text-sm text-gray-500">Balance: ₹{giftCards}</p>
+        <p className="text-sm text-gray-500">Balance: ${giftCards}</p>
       </div>
 
       {/* Display the "Add Gift Card" button */}

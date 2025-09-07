@@ -63,7 +63,7 @@ const Navbar = () => {
     items.push(
       <BreadcrumbItem key="home">
         <BreadcrumbLink asChild>
-          <Link to="/">Home</Link>
+          <Link to="/">Hom</Link>
         </BreadcrumbLink>
       </BreadcrumbItem>
     );
@@ -123,7 +123,7 @@ const Navbar = () => {
       <div className="fixed top-0 left-0 right-0 bg-[#111622] text-white py-1 text-sm sm:text-base z-50 overflow-hidden dark:bg-[#0f52ba]">
         <div className="animate-marquee whitespace-nowrap text-center">
           <pre>
-            So many perks await! Membership now LIVE 🎊                                  🎉 Flat 10% OFF on order above ₹2500 or more - Use Code: BEST10                             So many perks await! Membership now LIVE 🎊                                  🎉 Flat 10% OFF on order above ₹2500 or more - Use Code: BEST10
+            So many perks await! Membership now LIVE 🎊                                  🎉 Flat 10% OFF on order above $250 or more - Use Code: BEST10                             So many perks await! Membership now LIVE 🎊                                  🎉 Flat 10% OFF on order above $250 or more - Use Code: BEST10
           </pre>
         </div>
       </div>
@@ -133,10 +133,10 @@ const Navbar = () => {
         <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-8">
           {/* Logo */}
           <div className="flex flex-col">
-            <Link to="/" className="flex items-center space-x-2 text-xl font-bold">
+            <Link to="/" className="flex items-center space-x-2 text-xl font-bold pt-1">
               Global Exports
             </Link>
-            <Breadcrumb className="text-xs mt-3">
+            {/* <Breadcrumb className="text-xs mt-3">
               <BreadcrumbList>
                 {getBreadcrumbItems().map((item, index, array) => (
                   <React.Fragment key={item.key}>
@@ -149,7 +149,7 @@ const Navbar = () => {
                   </React.Fragment>
                 ))}
               </BreadcrumbList>
-            </Breadcrumb>
+            </Breadcrumb> */}
           </div>
 
           {/* Mobile Menu Icon */}

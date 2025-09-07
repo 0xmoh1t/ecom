@@ -61,7 +61,7 @@ const ProductDetailsPage = () => {
 
         {/* Right: Purchase/Delivery Box */}
         <div className="col-span-1 border rounded-lg p-6 shadow-sm space-y-4">
-          <p className="text-2xl font-semibold text-green-600">₹{product.price}</p>
+          <p className="text-2xl font-semibold text-green-600">${product.price}</p>
           <p className="text-sm text-gray-500">FREE delivery: Tue, 3 June</p>
           <p className="text-sm text-gray-500">
             Sold by: <span className="font-medium">CraftSeller</span>

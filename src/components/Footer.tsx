@@ -22,18 +22,42 @@ const Footer = () => {
               Premium handcrafted treasures from India to the world.
             </p>
             <div className="flex space-x-4">
-  <span className="hover:text-white transition-colors cursor-pointer">
-    <Facebook size={20} />
-  </span>
-  <span className="hover:text-white transition-colors cursor-pointer">
-    <Instagram size={20} />
-  </span>
-  <span className="hover:text-white transition-colors cursor-pointer">
-    <Twitter size={20} />
-  </span>
-  <span className="hover:text-white transition-colors cursor-pointer">
-    <Linkedin size={20} />
-  </span>
+  <a
+  href="https://facebook.com/yourpage"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition-colors cursor-pointer"
+>
+  <Facebook size={20} />
+</a>
+
+<a
+  href="https://instagram.com/yourprofile"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition-colors cursor-pointer"
+>
+  <Instagram size={20} />
+</a>
+
+<a
+  href="https://twitter.com/yourhandle"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition-colors cursor-pointer"
+>
+  <Twitter size={20} />
+</a>
+
+<a
+  href="https://linkedin.com/in/yourprofile"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition-colors cursor-pointer"
+>
+  <Linkedin size={20} />
+</a>
+
 </div>
 
           </div>
@@ -82,7 +106,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-primary-foreground/20 pt-6 text-sm text-center opacity-70">
-          <p>&copy; {new Date().getFullYear()}  Global Exports. All rights reserved, "Developed by ⁓ Goklyn Pvt. Ltd" </p>
+          <p>&copy; {new Date().getFullYear()}  Global Exports. All rights reserved, "Developed by ⁓ DevNad Pvt. Ltd" </p>
         </div>
       </div>
     </footer>
